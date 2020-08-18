@@ -3,12 +3,6 @@ site_url: https://www.freeflarum.com/docs/
 
 theme:
    name: 'material'
-   #  custom_dir: theme
-
-# -----------------------------------------------
-# need to enumerate everything, see this issue:
-# https://github.com/mkdocs/mkdocs/issues/714
-# -----------------------------------------------
 nav:
   - Home: 'https://www.freeflarum.com/docs/'
   - About: 'about.md'
@@ -24,7 +18,6 @@ nav:
     - 'What are Extensions?': 'how-to/extensions/about-extensions.md'
     - Extension List:
         - 'Approval': 'how-to/extensions/approval.md'
-        - 'Arabic Language': 'how-to/extensions/arabic-language.md'
         - 'BBCode': 'how-to/extensions/bbcode.md'
         - 'Bosnian Language': 'how-to/extensions/bosanski.md'
         - 'Bosnian Language (Extended)': 'how-to/extensions/bosnian-extended-pack.md'
@@ -46,6 +39,9 @@ nav:
         - 'FoF Default User Preferences': 'how-to/extensions/fof-default-user-preferences.md'
         - 'FoF Discord Login': 'how-to/extensions/fof-discord-login.md'
         - 'FoF Drafts': 'how-to/extensions/fof-drafts.md'
+        - 'FoF Formatting': 'how-to/extensions/fof-formatting.md'
+        - 'FoF Forum Statistics Widget': 'how-to/extensions/fof-forum-statistics-widget.md'
+        - 'FoF Gamification': 'how-to/extensions/fof-gamification.md'
         - 'FoF Sitemap': 'how-to/extensions/fof-sitemap.md'
   - Third-party Integrations:
     - Analytics:
@@ -72,4 +68,3 @@ markdown_extensions:
   - admonition
   
 repo_url: https://github.com/gwillem/freeflarum.com
-# edit_uri is not required for github
